@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.page-id-22 html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+/* Our Concierge Service */
+.page-id-22 #section-1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+
+.page-id-22 #section-1-title-container {
+  padding-bottom: 50px;
+}
+
+.page-id-22 #section-1-title {
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
+  color: #D6A53F;
+}
+
+.page-id-22 .max-width-changes {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-id-22 #section-1-flex-left-right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-id-22 #section-1-flex-left {
+  width: 100%;
+}
+
+.page-id-22 #section-1-flex-img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-id-22 #section-1-flex-left-inner {
+  height: 100%;
+  padding: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.page-id-22 .blog-paragraph {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .page-id-22 #section-1-flex-img {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+  }
+
+  .page-id-22 #section-1-flex-left-right {
+    flex-direction: column;
+  }
+
+  .page-id-22 #section-1-flex-left {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-id-22 #section-1-flex-left-inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
